@@ -26,7 +26,10 @@ public class Problem10 {
 				break;
 			}
 		}
-		
+		// Includes 2 as a prime number
+		if (number == 2){
+			status = true;
+		}
 		return status;
 	}
 	
@@ -39,6 +42,6 @@ public class Problem10 {
 			}
 		}
 		
-		return sum + 2; // Because 2 is prime
+		return sum;
 	}
 }
